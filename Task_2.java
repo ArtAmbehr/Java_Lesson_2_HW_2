@@ -57,3 +57,14 @@ public class Task_2 {
         return result;
     }
 
+    public static String negativPow(int a, int b) {
+        double temp = 1;
+        String result = "";
+        for(int i = 0; i < b * -1; i++){
+            temp *= a; 
+        }
+        result = String.valueOf(1/temp);
+        return result;
+    }
+
+
