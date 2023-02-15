@@ -67,4 +67,13 @@ public class Task_2 {
         return result;
     }
 
+    public static void writeFile(String string) throws FileNotFoundException {
+        File file = new File("output.txt"); // Создаем объект класса "файл"
+        PrintWriter pw = new PrintWriter(file); // Создаем объект класса записи в файл "PrintWriter"
+        pw.println(string); // Метод (команда) записи в файл
+        pw.close(); // закрываем объект класса "PrintWriter" (файл) 
+    }
+}
+
+
 
