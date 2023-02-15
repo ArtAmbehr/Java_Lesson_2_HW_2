@@ -12,10 +12,10 @@
 
 // нельзя использовать math.pow
 
-import java.io.File; // импортируем класс для работы с файлами
-import java.io.FileNotFoundException; // импортируем класс обработки ошибки отсутствия файла
-import java.util.Scanner; // импортируем класс для чтения информации из консоли, файла и т.п.
-import java.io.PrintWriter; // Импортируем класс записи в файл
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import java.io.PrintWriter;
 
 public class Task_2 {
     public static void main(String[] args) throws FileNotFoundException { 
